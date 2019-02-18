@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* drop-zonen */
+#container {
+  display: grid;
+  background-color: beige;
+}
+
+/* De enkelte områder inde i drop-zonen */
+.piece {
+  outline: 0.5px solid grey;
+}
+
+/* De enklte brikker, der skal kunne flyttes */
+.brik {
+  position: absolute;
+  outline: 0.5px solid grey;
+  background-image: url("https://ichef.bbci.co.uk/news/660/cpsprodpb/567C/production/_104004122_c4abcb73-3a21-4403-b8bd-ff96cb4e312c.jpg");
+}
